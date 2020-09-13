@@ -25,6 +25,7 @@ export default function createListOfBooks(books) {
     const buttonDiv = document.createElement("div");
     const addBookBtn = document.createElement("button");
     addBookBtn.className = "addbtn";
+    addBookBtn.textContent = "Add +";
 
     bookContentDiv.appendChild(bookTitle);
     bookContentDiv.appendChild(bookAuthor);
