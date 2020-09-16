@@ -4,6 +4,14 @@ export default function createListOfBooks(books) {
   const titleText = document.createTextNode("Suggested Reading");
   const bookDiv = document.createElement("div");
 
+  /*
+ can also use forEach instead of map
+  books.forEach(book => {
+
+  }
+
+  */
+
   books.map((book) => {
     const bookDivItem = document.createElement("div");
     bookDivItem.className = "book";
