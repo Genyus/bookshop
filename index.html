@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#221f3b" />
     <meta name="description" content="My e-Book Library" />
-    <title>My Library 0 Read</title>
+    <title>My Library</title>
   </head>
 
   <body>
@@ -16,7 +16,7 @@
         <header class="header">
           <nav class="breadcrumb">
             <a href="/">Home</a> | <a href="/about">About</a> |
-            <a class="bookLink" href="/bookcase">Bookcase (0)</a>
+            <a class="bookLink" href="bookcase.html">Bookcase (0)</a>
           </nav>
           <h1>My e-Book Library</h1>
         </header>
@@ -37,8 +37,7 @@
         <div id="list"></div>
       </section>
     </main>
-    <script type="module" src="/src/index.js">
-      createListOfBooks()
-    </script>
+    <script type="module" src="/src/index.js"></script>
+    <script type="module" src="/src/modules/bookcase.js"></script>
   </body>
 </html>

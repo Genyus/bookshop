@@ -171,3 +171,48 @@ a {
 .searchBar input[type="submit"]:hover {
   background-color: thistle;
 }
+
+.bookcase-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.bookcase-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bookcase-row {
+  display: flex;
+}
+
+.bookcase-item {
+  width: 45%;
+}
+
+.bookcase-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.bookcase-quantity {
+  width: 35%;
+}
+
+.bookcase-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.bookcase-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}

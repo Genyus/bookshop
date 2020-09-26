@@ -1,16 +1,8 @@
-export default function createListOfBooks(books) {
+export function displayListOfBooks(books) {
   const bookListSection = document.querySelector("#list");
   const title = document.createElement("h2");
   const titleText = document.createTextNode("Suggested Reading");
   const bookDiv = document.createElement("div");
-
-  /*
- can also use forEach instead of map
-  books.forEach(book => {
-
-  }
-
-  */
 
   books.map((book) => {
     const bookDivItem = document.createElement("div");
@@ -51,3 +43,5 @@ export default function createListOfBooks(books) {
   bookListSection.appendChild(title);
   bookListSection.appendChild(bookDiv);
 }
+
+export default displayListOfBooks;

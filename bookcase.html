@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="src/modules/bookcase.js" async></script>
+    <title>Bookcase</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bookcase.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    <section class="container content-section">
+        <h2 class="section-header">My Books</h2>
+        <div class="bookcase-row">
+            <span class="bookcase-item bookcase-header bookcase-column">ITEM</span>
+            <span class="bookcase-price bookcase-header bookcase-column">PRICE</span>
+            <span class="bookcase-quantity bookcase-header bookcase-column">QUANTITY</span>
+        </div>
+        <div class="bookcase-items">
+        </div>
+        <div class="bookcase-total">
+            <strong class="bookcase-total-title">Total</strong>
+            <span class="bookcase-total-price">£0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+</body>
+</html>

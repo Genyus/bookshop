@@ -1,4 +1,5 @@
 import { books } from "./modules/books.js";
-import createListOfBooks from "./modules/listOfBooks.js";
+import displayListOfBooks from "./modules/listOfBooks.js";
+import { addToBookcaseClicked } from "./modules/bookcase.js";
 
-createListOfBooks(books);
+displayListOfBooks(books);
