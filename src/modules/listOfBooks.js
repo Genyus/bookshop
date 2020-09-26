@@ -12,7 +12,7 @@ export default function createListOfBooks(books) {
 
   */
 
-  // lets refactor this to make it easier to read!
+  // lets refactor this to make it easier to read in our 1-2-1!
   books.map((book) => {
     const bookDivItem = document.createElement("div");
     bookDivItem.className = "book";
