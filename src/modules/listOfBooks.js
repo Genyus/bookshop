@@ -12,6 +12,7 @@ export default function createListOfBooks(books) {
 
   */
 
+  // lets refactor this to make it easier to read!
   books.map((book) => {
     const bookDivItem = document.createElement("div");
     bookDivItem.className = "book";
@@ -42,6 +43,9 @@ export default function createListOfBooks(books) {
 
     bookDivItem.appendChild(bookImage);
     bookDivItem.appendChild(bookContentDiv);
+    //it would be pretty cool to implement the add button to add a book to a bookcase
+    //maybe its part of the course that you will carry on working on the bookshop...
+    //but there is no reason you can't do it if you find time
     buttonDiv.appendChild(addBookBtn);
     bookDivItem.appendChild(buttonDiv);
     bookDiv.appendChild(bookDivItem);
